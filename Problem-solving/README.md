@@ -1,0 +1,20 @@
+- Problem-solving:
+    - Easy:
+        - BinarySearch.java
+        - BSTLCA(Binary Search Tree: Lowest Common Ancestor)
+        - DynamicArray
+        - EqualStacks
+        - InsertPositionLL(LL = LinkedList)
+        - JesseCookies
+        - leftRotation
+        - LLPrintReverse
+        - maxEleStack
+        - QHeap1
+        - removeDuplicatesLL
+        - ReverseLL
+        - topViewLL
+    - Medium:
+        - SparseArray.java
+
+- Extra:
+    - MatrixTo1DArray

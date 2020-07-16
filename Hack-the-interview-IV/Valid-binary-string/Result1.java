@@ -1,3 +1,4 @@
+// Will give TLE because it's checking all substrings
 class Result1
 {
     public static int minimumMoves(String s, int d)

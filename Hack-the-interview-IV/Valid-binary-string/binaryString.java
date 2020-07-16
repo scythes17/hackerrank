@@ -32,7 +32,7 @@ class Result {
         }
         return count;*/
         ArrayList<Integer> a = new ArrayList<>(); // to store indices of '1's
-        for(int i=0; i<s.length(); i++){
+        for(int i=0; i<s.length(); i++){ // can use s.indexOf('1') and while loop
             if(s.charAt(i)=='1')
                 a.add(i);
         }
@@ -49,7 +49,6 @@ class Result {
         }
         return count;
     }
-
 }
 
 public class binaryString {

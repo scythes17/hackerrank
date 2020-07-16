@@ -23,7 +23,7 @@ public class SparseArray {
         for(String s: strings) {
             if(map.containsKey(s)) {
                 int count = map.get(s);
-                map.put(s, ++count);
+                map.replace(s, ++count);
             } else {
                 map.put(s, 1);
             }

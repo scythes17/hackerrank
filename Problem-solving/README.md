@@ -2,6 +2,8 @@
     - Easy:
         - BinarySearch.java
         - BSTLCA(Binary Search Tree: Lowest Common Ancestor)
+        - CountingValleys
+        - DrawingBook
         - DynamicArray
         - EqualStacks
         - InsertPositionLL(LL = LinkedList)
@@ -9,12 +11,19 @@
         - leftRotation
         - LLPrintReverse
         - maxEleStack
+        - MigratoryBirds
+        - PickNumbers
         - QHeap1
         - removeDuplicatesLL
         - ReverseLL
+        - StrongPassword
         - topViewLL
     - Medium:
         - SparseArray.java
 
 - Extra:
+    - ClimbingLeaderboard
+    - magicSquare
+    - maxIndexProduct
+    - QUsingStacks
     - MatrixTo1DArray

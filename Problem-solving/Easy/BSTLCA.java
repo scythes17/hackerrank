@@ -1,3 +1,4 @@
+// Not a binary search tree but ok.
 import java.util.*;
 
 class Node {

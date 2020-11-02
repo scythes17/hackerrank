@@ -9,7 +9,7 @@ class Result1 {
      * The function accepts INTEGER_ARRAY a as parameter.
      */
 
-    public static int pickingNumbers(List<Integer> a) {
+    /*public static int pickingNumbers(List<Integer> a) {
     // Write your code here
         int max = 0, i=0;
         Collections.sort(a);
@@ -31,6 +31,20 @@ class Result1 {
             }
             else{
                 i = i+1;
+            }
+        }
+        return max;
+    }*/
+    public static int pickingNumbers(List<Integer> a) {
+        int[] freq = new int[100]; // 1 -> 99 0 < a[i] < 100
+        int max = 0;
+        for (int i = 0; i < a.size(); i++) {
+            freq[a.get(i)]++;
+        }
+        for (int i = 1; i < 99; i++) { // covers till i=98 and i+1 = 99
+            int count = freq[i] + freq[i+1]; // check the max freq for two consecutive numbers
+            if (count > max) {
+                max = count;
             }
         }
         return max;

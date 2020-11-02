@@ -7,7 +7,7 @@ public class BinarySearch {
     private static int search(int value, int lo, int hi) {
         //int lo = 0;
         //int hi = heap.length-1;
-        int mid = (lo+hi)/2;
+        int mid = lo+(hi-lo)/2;
         if(value == heap[mid])
             return mid;
         else if(value < heap[mid])

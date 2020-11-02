@@ -7,7 +7,7 @@ public class QHeap1 {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sc = new Scanner(System.in);
         int q = sc.nextInt();
-        Heap heap = new Heap(0); // default heap index 0 = null
+        Heap heap = new Heap(); // default heap index 0 = null
         for(int i=0; i<q; i++) {
             System.out.println("Heap right now is: ");
             heap.display();
@@ -33,9 +33,9 @@ class Heap{
     private ArrayList<Integer> heap;
     private int n;
 
-    Heap(int n){
-        this.n = n;
-        heap = new ArrayList<>(n+1);
+    Heap(){
+        this.n = 0;
+        heap = new ArrayList<>(1);
         heap.add(0, Integer.MIN_VALUE);
         //heap.set
     }

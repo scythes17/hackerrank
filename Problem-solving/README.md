@@ -1,25 +1,42 @@
 - Problem-solving:
     - Easy:
-        - BinarySearch.java
+        - AppendAndDelete
+        - BinarySearch
         - BSTLCA(Binary Search Tree: Lowest Common Ancestor)
+        - CircularRotation
         - CountingValleys
+        - CutTheSticks
         - DrawingBook
         - DynamicArray
         - EqualStacks
+        - FindDigits
+        - FindDigits1
+        - FindMergePointofTwoLL
         - InsertPositionLL(LL = LinkedList)
         - JesseCookies
         - leftRotation
         - LLPrintReverse
+        - LoveLetterMystery
         - maxEleStack
+        - MergeTwoLL
         - MigratoryBirds
         - PickNumbers
         - QHeap1
         - removeDuplicatesLL
+        - ReverseDoublyLL
         - ReverseLL
+        - SaveThePrisoner
+        - SherlockSquares
         - StrongPassword
         - topViewLL
     - Medium:
-        - SparseArray.java
+        - BalancedBrackets
+        - CycleDetection
+        - Encryption
+        - SparseArray
+    - Hard:
+        - ArrayManipulation
+        - ArrayManipulation1
 
 - Extra:
     - ClimbingLeaderboard
